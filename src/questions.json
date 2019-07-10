@@ -1,0 +1,60 @@
+[
+  {
+    "question": "How do you show friends and family you care?",
+    "answers": [
+      {
+        "answer": "Hug",
+        "type": "extravert"
+      },
+      {
+        "answer": "Tie up their shoe laces, so they don’t fall over",
+        "type": "introvert"
+      },
+      {
+        "answer": "You show them how to access your favourite UniProt webinars",
+        "type": "conscientious"
+      },
+      {
+        "answer": "Handshake",
+        "type": "openness"
+      },
+      {
+        "answer": "I watch them sleep and sing a lullaby if they wake up",
+        "type": "agreeableness"
+      },
+      {
+        "answer": "Smell their shoulder",
+        "type": "sausage"
+      }
+    ]
+  },
+  {
+    "question": "How do UniProt help scientific communities in their research?",
+    "answers": [
+      {
+        "answer": "Hiring people to read scientific papers",
+        "type": "extravert"
+      },
+      {
+        "answer": "By creating new protein-heavy recipes for you to try at home",
+        "type": "introvert"
+      },
+      {
+        "answer": "By sending long letters to Santa",
+        "type": "conscientious"
+      },
+      {
+        "answer": "Using magic",
+        "type": "openness"
+      },
+      {
+        "answer": "By suggesting emojis that can be used to replace punctuation marks in their publications",
+        "type": "agreeableness"
+      },
+      {
+        "answer": "Using bribery, bananas and Greggs gift cards",
+        "type": "sausage"
+      }
+    ]
+  }
+]

@@ -1,24 +1,46 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import questions from "./questions.json";
+import "./App.css";
 
 function App() {
+  const [index, setIndex] = useState(0);
+  const [score, setScore] = useState(new Map());
+
+  const reset = () => {
+    setIndex(0);
+    setScore(new Map());
+  };
+
+  const submitAnswer = answer => {
+    setIndex(index + 1);
+    const scoreMap = new Map(score);
+    scoreMap.set(answer, scoreMap.get(answer) ? scoreMap.get(answer) + 1 : 1);
+    setScore(scoreMap);
+  };
+
+  const getQuizAnswer = () =>
+    [...score.entries()].reduce((a, e) => (e[1] > a[1] ? e : a))[0];
+
+  const currentQuestion = questions[index];
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {index < questions.length ? (
+        <div>
+          <h2>{currentQuestion.question}</h2>
+          <ul>
+            {currentQuestion.answers.map(answer => (
+              <li key={answer.type} onClick={() => submitAnswer(answer.type)}>
+                {answer.answer}
+              </li>
+            ))}
+          </ul>
+        </div>
+      ) : (
+        <div>
+          <h4>You are {getQuizAnswer()}</h4>
+          <button onClick={() => reset()}>Start Quiz</button>
+        </div>
+      )}
     </div>
   );
 }
