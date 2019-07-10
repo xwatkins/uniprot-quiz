@@ -13,8 +13,11 @@ body {
   font-size: 26px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: blanchedalmond;
-  color: black;
+  color: #fafafa;
+  background: url("./backgroung.svg") black;
+  background-size: 100vw auto;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 
 ul {
@@ -33,7 +36,7 @@ li {
     font-variation-settings: "wght" 100, "wdth" 70;
   }
   50% {
-    font-variation-settings: "wght" 400, "wdth" 70;
+    font-variation-settings: "wght" 200, "wdth" 70;
   }
   100% {
     font-variation-settings: "wght" 100, "wdth" 70;
