@@ -1,6 +1,6 @@
 [
   {
-    "question": "How do you show friends and family you care?",
+    "question": "How do you show friends and family you care",
     "answers": [
       {
         "answer": "Hug",
@@ -29,7 +29,7 @@
     ]
   },
   {
-    "question": "How do UniProt help scientific communities in their research?",
+    "question": "How do UniProt help scientific communities in their research",
     "answers": [
       {
         "answer": "Hiring people to read scientific papers",
@@ -53,6 +53,387 @@
       },
       {
         "answer": "Using bribery, bananas and Greggs gift cards",
+        "type": "sausage"
+      }
+    ]
+  },
+  {
+    "question": "At the annual UniProt disco, how would you spend your time",
+    "answers": [
+      {
+        "answer": "At the centre of the dance floor showing the team how to “time walk”",
+        "type": "extravert"
+      },
+      {
+        "answer": "Rocking back and forth in a corner, wishing for the end to come sooner",
+        "type": "introvert"
+      },
+      {
+        "answer": "At the side both looking for people you know and counting the number of people wearing pink",
+        "type": "conscientious"
+      },
+      {
+        "answer": "On social media, documenting your time at the disco",
+        "type": "openness"
+      },
+      {
+        "answer": "By having fun, but ensuring that I periodically refer to the health and safety documentation and make sure all the fire exits are clear",
+        "type": "agreeableness"
+      },
+      {
+        "answer": "Having a nice time",
+        "type": "sausage"
+      }
+    ]
+  },
+  {
+    "question": "Do you know who Batman is",
+    "answers": [
+      {
+        "answer": "No. This is a stupid question",
+        "type": "extravert"
+      },
+      {
+        "answer": "Bruce Wayne",
+        "type": "introvert"
+      },
+      {
+        "answer": "A Drosophila melanogaster protein",
+        "type": "conscientious"
+      },
+      {
+        "answer": "Michael Keaton",
+        "type": "openness"
+      },
+      {
+        "answer": "Yes, I do, always",
+        "type": "agreeableness"
+      },
+      {
+        "answer": "I am Batman",
+        "type": "sausage"
+      }
+    ]
+  },
+  {
+    "question": "Which freely available online resource can I use to find functional information on proteins",
+    "answers": [
+      {
+        "answer": "I prefer to email the Universities and Science Minister for England directly for all science- and nature-based questions",
+        "type": "extravert"
+      },
+      {
+        "answer": "BBC Good Food",
+        "type": "introvert"
+      },
+      {
+        "answer": "UniProt",
+        "type": "conscientious"
+      },
+      {
+        "answer": "My great aunt is very resourceful and is always online",
+        "type": "openness"
+      },
+      {
+        "answer": "I’ll ask my friends what they use",
+        "type": "agreeableness"
+      },
+      {
+        "answer": "Did you say free?! How do you pay your staff",
+        "type": "sausage"
+      },
+      {
+        "answer": "There is no such resource",
+        "type": "sausage"
+      }
+    ]
+  },
+  {
+    "question": "Do you like cats",
+    "answers": [
+      {
+        "answer": "I like other people’s cats",
+        "type": "extravert"
+      },
+      {
+        "answer": "Yes",
+        "type": "introvert"
+      },
+      {
+        "answer": "No, but don’t tell my cat",
+        "type": "conscientious"
+      },
+      {
+        "answer": "I am a cat",
+        "type": "openness"
+      },
+      {
+        "answer": "If you do, I do, we all do",
+        "type": "agreeableness"
+      },
+      {
+        "answer": "What’s a cat",
+        "type": "sausage"
+      }
+    ]
+  },
+  {
+    "question": "Finish the phrase “two’s company, three’s …",
+    "answers": [
+      {
+        "answer": "A party!",
+        "type": "extravert"
+      },
+      {
+        "answer": "A prime number",
+        "type": "introvert"
+      },
+      {
+        "answer": "A sufficient number of amino acids required to use the peptide search tool on the UniProt website",
+        "type": "conscientious"
+      },
+      {
+        "answer": "A crowd",
+        "type": "openness"
+      },
+      {
+        "answer": "An ok number, if you really think I need a third person to cut my hair",
+        "type": "agreeableness"
+      },
+      {
+        "answer": "Just greedy and leaves crumbs!",
+        "type": "sausage"
+      }
+    ]
+  },
+  {
+    "question": "When doing a new household task do you",
+    "answers": [
+      {
+        "answer": "Hire a sky-writer to tell the world",
+        "type": "extravert"
+      },
+      {
+        "answer": "Get on and do it",
+        "type": "introvert"
+      },
+      {
+        "answer": "Always email help@uniprot.org",
+        "type": "conscientious"
+      },
+      {
+        "answer": "Phone Professor Xavier",
+        "type": "openness"
+      },
+      {
+        "answer": "Tweet it",
+        "type": "agreeableness"
+      },
+      {
+        "answer": "Wear something orange",
+        "type": "sausage"
+      }
+    ]
+  },
+  {
+    "question": "What’s your ideal holiday",
+    "answers": [
+      {
+        "answer": "A few fun-filled busy days with friends and families blast searching proteins",
+        "type": "extravert"
+      },
+      {
+        "answer": "You alone on a beach with the UniProt homepage open",
+        "type": "introvert"
+      },
+      {
+        "answer": "A holiday without UniProt, but knowing it’s there if I need it",
+        "type": "conscientious"
+      },
+      {
+        "answer": "You and a loved one in a big city with UniProt only a click away on your phones",
+        "type": "openness"
+      },
+      {
+        "answer": "The opportunity to visit the home countries of all the UniProt members of staff would be a dream come true. Can you make this happen",
+        "type": "agreeableness"
+      },
+      {
+        "answer": "Polar bear watching in Egypt",
+        "type": "sausage"
+      }
+    ]
+  },
+  {
+    "question": "Which of these things makes you happy",
+    "answers": [
+      {
+        "answer": "Guiding ducks across busy roads",
+        "type": "extravert"
+      },
+      {
+        "answer": "Being at home",
+        "type": "introvert"
+      },
+      {
+        "answer": "Running the ID mapping tool on the UniProt website",
+        "type": "conscientious"
+      },
+      {
+        "answer": "A hug from an expert scientific curator",
+        "type": "openness"
+      },
+      {
+        "answer": "Rolling in leaves",
+        "type": "agreeableness"
+      },
+      {
+        "answer": "Giggling and jiggling like a giggling jiggling purple jelly",
+        "type": "sausage"
+      }
+    ]
+  },
+  {
+    "question": "Which of these things makes you unhappy",
+    "answers": [
+      {
+        "answer": "Nothing makes me unhappy",
+        "type": "extravert"
+      },
+      {
+        "answer": "Pheasants in the road",
+        "type": "introvert"
+      },
+      {
+        "answer": "To know where to begin when there is too much functional information on the UniProt website",
+        "type": "conscientious"
+      },
+      {
+        "answer": "Being on holiday without the internet access to search UniProt",
+        "type": "openness"
+      },
+      {
+        "answer": "Unhappy frogs",
+        "type": "agreeableness"
+      },
+      {
+        "answer": "The number 4864320964",
+        "type": "sausage"
+      }
+    ]
+  },
+  {
+    "question": "Do you like to dance",
+    "answers": [
+      {
+        "answer": "Yes, when I have an audience",
+        "type": "extravert"
+      },
+      {
+        "answer": "Not really",
+        "type": "introvert"
+      },
+      {
+        "answer": "I like to do the funky chicken when no one is watching",
+        "type": "conscientious"
+      },
+      {
+        "answer": "Only in the moonlight",
+        "type": "openness"
+      },
+      {
+        "answer": "Will you teach me?",
+        "type": "agreeableness"
+      },
+      {
+        "answer": "Yes, I’m dancing now",
+        "type": "sausage"
+      }
+    ]
+  },
+  {
+    "question": "How does success make you feel",
+    "answers": [
+      {
+        "answer": "Overjoyed and makes me want to tell the whole world",
+        "type": "extravert"
+      },
+      {
+        "answer": "Like it’s a Tuesday",
+        "type": "introvert"
+      },
+      {
+        "answer": "Motivated to use the advanced search in UniProt",
+        "type": "conscientious"
+      },
+      {
+        "answer": "Warm and fuzzy like Winnie the Pooh",
+        "type": "openness"
+      },
+      {
+        "answer": "Like decorating the room with stars, so that they are within reach of everybody",
+        "type": "agreeableness"
+      },
+      {
+        "answer": "Hungry for artichokes",
+        "type": "sausage"
+      }
+    ]
+  },
+  {
+    "question": "What motivates you",
+    "answers": [
+      {
+        "answer": "People around me",
+        "type": "extravert"
+      },
+      {
+        "answer": "The sunshine from inside my house",
+        "type": "introvert"
+      },
+      {
+        "answer": "UniProt",
+        "type": "conscientious"
+      },
+      {
+        "answer": "Slugs and snails",
+        "type": "openness"
+      },
+      {
+        "answer": "Beethovan. In particular, the second movie with all the little puppies!",
+        "type": "agreeableness"
+      },
+      {
+        "answer": "A good potato mash",
+        "type": "sausage"
+      }
+    ]
+  },
+  {
+    "question": "What do you like to read",
+    "answers": [
+      {
+        "answer": "Long drawn-out adventure books with lots of characters",
+        "type": "extravert"
+      },
+      {
+        "answer": "Books with no more than 5 pages",
+        "type": "introvert"
+      },
+      {
+        "answer": "The UniProt help pages",
+        "type": "conscientious"
+      },
+      {
+        "answer": "Code",
+        "type": "openness"
+      },
+      {
+        "answer": "Whatever the person on the train next to me is reading, so long as they explain the funny bits to me",
+        "type": "agreeableness"
+      },
+      {
+        "answer": "Sausages can’t read",
         "type": "sausage"
       }
     ]

@@ -29,6 +29,7 @@ ul {
 li {
   cursor: pointer;
   padding: 1rem 0;
+  font-size: 1.4rem;
 }
 
 @keyframes bigger {

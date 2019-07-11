@@ -25,8 +25,8 @@ function App() {
   return (
     <div className="App">
       {index < questions.length ? (
-        <div>
-          <h2>{currentQuestion.question}</h2>
+        <div className="Question">
+          <h2>{currentQuestion.question}?</h2>
           <ul>
             {currentQuestion.answers.map(answer => (
               <li key={answer.type} onClick={() => submitAnswer(answer.type)}>

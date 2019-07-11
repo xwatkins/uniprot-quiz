@@ -4,4 +4,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
+}
+
+.Question {
+  width: 70vw;
 }
