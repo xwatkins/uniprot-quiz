@@ -1,6 +1,6 @@
 [
   {
-    "question": "How do you show friends and family you care",
+    "question": "How do you show friends and family you care?",
     "answers": [
       {
         "answer": "Hug",
@@ -29,7 +29,7 @@
     ]
   },
   {
-    "question": "How do UniProt help scientific communities in their research",
+    "question": "How do UniProt help scientific communities in their research?",
     "answers": [
       {
         "answer": "Hiring people to read scientific papers",
@@ -58,7 +58,7 @@
     ]
   },
   {
-    "question": "At the annual UniProt disco, how would you spend your time",
+    "question": "At the annual UniProt disco, how would you spend your time?",
     "answers": [
       {
         "answer": "At the centre of the dance floor showing the team how to “time walk”",
@@ -87,7 +87,7 @@
     ]
   },
   {
-    "question": "Do you know who Batman is",
+    "question": "Do you know who Batman is?",
     "answers": [
       {
         "answer": "No. This is a stupid question",
@@ -116,7 +116,7 @@
     ]
   },
   {
-    "question": "Which freely available online resource can I use to find functional information on proteins",
+    "question": "Which freely available online resource can I use to find functional information on proteins?",
     "answers": [
       {
         "answer": "I prefer to email the Universities and Science Minister for England directly for all science- and nature-based questions",
@@ -139,7 +139,7 @@
         "type": "agreeableness"
       },
       {
-        "answer": "Did you say free?! How do you pay your staff",
+        "answer": "Did you say free?! How do you pay your staff?",
         "type": "sausage"
       },
       {
@@ -149,7 +149,7 @@
     ]
   },
   {
-    "question": "Do you like cats",
+    "question": "Do you like cats?",
     "answers": [
       {
         "answer": "I like other people’s cats",
@@ -172,7 +172,7 @@
         "type": "agreeableness"
       },
       {
-        "answer": "What’s a cat",
+        "answer": "What’s a cat?",
         "type": "sausage"
       }
     ]
@@ -207,7 +207,7 @@
     ]
   },
   {
-    "question": "When doing a new household task do you",
+    "question": "When doing a new household task do you...",
     "answers": [
       {
         "answer": "Hire a sky-writer to tell the world",
@@ -236,7 +236,7 @@
     ]
   },
   {
-    "question": "What’s your ideal holiday",
+    "question": "What’s your ideal holiday?",
     "answers": [
       {
         "answer": "A few fun-filled busy days with friends and families blast searching proteins",
@@ -255,7 +255,7 @@
         "type": "openness"
       },
       {
-        "answer": "The opportunity to visit the home countries of all the UniProt members of staff would be a dream come true. Can you make this happen",
+        "answer": "The opportunity to visit the home countries of all the UniProt members of staff would be a dream come true. Can you make this happen?",
         "type": "agreeableness"
       },
       {
@@ -265,7 +265,7 @@
     ]
   },
   {
-    "question": "Which of these things makes you happy",
+    "question": "Which of these things makes you happy?",
     "answers": [
       {
         "answer": "Guiding ducks across busy roads",
@@ -294,7 +294,7 @@
     ]
   },
   {
-    "question": "Which of these things makes you unhappy",
+    "question": "Which of these things makes you unhappy?",
     "answers": [
       {
         "answer": "Nothing makes me unhappy",
@@ -323,7 +323,7 @@
     ]
   },
   {
-    "question": "Do you like to dance",
+    "question": "Do you like to dance?",
     "answers": [
       {
         "answer": "Yes, when I have an audience",
@@ -352,7 +352,7 @@
     ]
   },
   {
-    "question": "How does success make you feel",
+    "question": "How does success make you feel?",
     "answers": [
       {
         "answer": "Overjoyed and makes me want to tell the whole world",
@@ -381,7 +381,7 @@
     ]
   },
   {
-    "question": "What motivates you",
+    "question": "What motivates you?",
     "answers": [
       {
         "answer": "People around me",
@@ -410,7 +410,7 @@
     ]
   },
   {
-    "question": "What do you like to read",
+    "question": "What do you like to read?",
     "answers": [
       {
         "answer": "Long drawn-out adventure books with lots of characters",
