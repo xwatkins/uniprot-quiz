@@ -7,14 +7,14 @@ import {
 import "./App.css";
 
 const pins = new Map([
-  ["sausage", 1],
-  ["megasausage", 1],
-  ["batman", 2],
-  ["extravert", 3],
-  ["introvert", 4],
-  ["conscientious", 5],
-  ["openness", 6],
-  ["agreeableness", 7]
+  ["sausage", [1]],
+  ["megasausage", [1]],
+  ["batman", [2]],
+  ["extravert", [3, 4]],
+  ["introvert", [5, 6]],
+  ["conscientious", [7, 8]],
+  ["openness", [9, 10]],
+  ["agreeableness", [11, 12]]
 ]);
 
 setup({
@@ -43,13 +43,16 @@ function App() {
 
   const getQuizAnswer = () => {
     if (score.get("megasausage")) {
-      return getTicket(pins.get("megasausage"));
+      return getTicket(pins.get("megasausage")[0]);
     } else {
       const highScoreEntry = [...score.entries()].reduce((a, e) =>
         e[1] > a[1] ? e : a
       )[0];
-      console.log(highScoreEntry);
-      return getTicket(pins.get(highScoreEntry));
+      console.log(
+        highScoreEntry,
+        pins.get(highScoreEntry)[Math.round(Math.random())]
+      );
+      return getTicket(pins.get(highScoreEntry)[Math.round(Math.random())]);
     }
   };
 
