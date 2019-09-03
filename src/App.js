@@ -20,7 +20,7 @@ const pins = new Map([
 setup({
   seed: "EBI 25 Anniversary",
   minDrawer: 1,
-  maxDrawer: 7,
+  maxDrawer: 12,
   minTicket: 10 ** 5,
   maxTicket: 10 ** 6
 });
@@ -52,7 +52,11 @@ function App() {
         highScoreEntry,
         pins.get(highScoreEntry)[Math.round(Math.random())]
       );
-      return getTicket(pins.get(highScoreEntry)[Math.round(Math.random())]);
+      const ticket = getTicket(
+        pins.get(highScoreEntry)[Math.round(Math.random())]
+      );
+      // Make request here to printer with ticket number
+      return ticket;
     }
   };
 
@@ -75,7 +79,6 @@ function App() {
           <h2>{getQuizAnswer()}</h2>
           <button
             onClick={() => {
-              window.print();
               reset();
             }}
             style={{
@@ -88,7 +91,7 @@ function App() {
               fontSize: "2rem"
             }}
           >
-            Print Ticket
+            Next
           </button>
         </div>
       )}

@@ -15,7 +15,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   color: #fafafa;
   background: url("./backgroung.svg") black;
-  background-size: 100vw auto;
+  background-size: 80vw auto;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
@@ -27,12 +27,14 @@ ul {
 }
 
 li {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-transform: none;
   cursor: pointer;
   padding: 1rem 0;
   font-size: 1.4rem;
 }
 
-@keyframes bigger {
+/* @keyframes bigger {
   0% {
     font-variation-settings: "wght" 100, "wdth" 70;
   }
@@ -42,7 +44,7 @@ li {
   100% {
     font-variation-settings: "wght" 100, "wdth" 70;
   }
-}
+} */
 
 h2 {
   animation: bigger infinite;
