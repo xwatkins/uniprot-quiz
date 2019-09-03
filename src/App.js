@@ -4,6 +4,7 @@ import {
   setup,
   getTicket
 } from "ebi-25th-anniversary-uniprot-ticket-drawer-mapping";
+import Axios from "axios";
 import "./App.css";
 
 const pins = new Map([
@@ -16,6 +17,8 @@ const pins = new Map([
   ["openness", [9, 10]],
   ["agreeableness", [11, 12]]
 ]);
+
+export const baseUrl = "http://192.168.4.1:8000";
 
 setup({
   seed: "EBI 25 Anniversary",
@@ -55,6 +58,11 @@ function App() {
       const ticket = getTicket(
         pins.get(highScoreEntry)[Math.round(Math.random())]
       );
+      try {
+        Axios.get(`${baseUrl}/${ticket}`);
+      } catch (e) {
+        console.log(e);
+      }
       // Make request here to printer with ticket number
       return ticket;
     }
