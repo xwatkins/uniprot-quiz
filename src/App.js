@@ -59,7 +59,7 @@ function App() {
         pins.get(highScoreEntry)[Math.round(Math.random())]
       );
       try {
-        Axios.get(`${baseUrl}/${ticket}`);
+        Axios.get(`${baseUrl}/print/${ticket}`);
       } catch (e) {
         console.log(e);
       }
