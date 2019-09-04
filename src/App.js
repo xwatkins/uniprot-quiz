@@ -53,10 +53,14 @@ function App() {
       )[0];
       console.log(
         highScoreEntry,
-        pins.get(highScoreEntry)[Math.round(Math.random())]
+        pins.get(highScoreEntry)[
+          pins.get(highScoreEntry).length > 1 ? Math.round(Math.random()) : 0
+        ]
       );
       const ticket = getTicket(
-        pins.get(highScoreEntry)[Math.round(Math.random())]
+        pins.get(highScoreEntry)[
+          pins.get(highScoreEntry).length > 1 ? Math.round(Math.random()) : 0
+        ]
       );
       try {
         Axios.get(`${baseUrl}/print/${ticket}`);
