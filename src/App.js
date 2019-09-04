@@ -88,6 +88,7 @@ function App() {
         </div>
       ) : (
         <div>
+          <h1>Please take your ticket</h1>
           <h2>{getQuizAnswer()}</h2>
           <button
             onClick={() => {
