@@ -14,8 +14,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #fafafa;
-  background: url("./backgroung.svg") black;
-  background-size: 80vw auto;
+  background: url("./images/background.png") black;
+  background-size: auto 100vh;
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
@@ -34,6 +34,39 @@ li {
   font-size: 1.4rem;
 }
 
+/* Buttons styles start */
+button {
+  display: inline-block;
+  border: none;
+  padding: 1rem 2rem;
+  margin: 0;
+  text-decoration: none;
+  background: none;
+  color: #ffffff;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: 1;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+button:hover {
+  background: #0053ba;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+  /* outline-offset: -4px; */
+}
+
+/*
+button:active {
+  transform: scale(0.99);
+} */
 /* @keyframes bigger {
   0% {
     font-variation-settings: "wght" 100, "wdth" 70;

@@ -60,13 +60,23 @@ function App() {
   const currentQuestion = questions[index];
   return (
     <div className="App">
+      <button
+        onClick={() => {
+          reset();
+        }}
+        className="reset-button"
+      >
+        Start again
+      </button>
       {index < questions.length ? (
         <div className="Question">
           <h2>{currentQuestion.question}</h2>
           <ul>
             {currentQuestion.answers.map((answer) => (
-              <li key={answer.type} onClick={() => submitAnswer(answer.type)}>
-                {answer.answer}
+              <li key={answer.type}>
+                <button onClick={() => submitAnswer(answer.type)}>
+                  {answer.answer}
+                </button>
               </li>
             ))}
           </ul>
@@ -74,22 +84,6 @@ function App() {
       ) : (
         <div>
           <div>{getQuizAnswer()}</div>
-          <button
-            onClick={() => {
-              reset();
-            }}
-            style={{
-              margin: 0,
-              padding: ".5rem",
-              color: "#000000",
-              background: "#ffffff",
-              height: "3rem",
-              fontFamily: "Monospace",
-              fontSize: "2rem",
-            }}
-          >
-            Next
-          </button>
         </div>
       )}
     </div>
