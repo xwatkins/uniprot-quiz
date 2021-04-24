@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cefc939b83c2c6f2f4a69049c3fd0811",
+    "revision": "6542684b7816b3d0730250ae98ff7427",
     "url": "/uniprot-quiz/index.html"
   },
   {
-    "revision": "63b121a6dd19bcb9c8cd",
-    "url": "/uniprot-quiz/static/css/main.f0ba2d58.chunk.css"
+    "revision": "60d9334479dc61831d54",
+    "url": "/uniprot-quiz/static/css/main.382125d0.chunk.css"
   },
   {
     "revision": "8b8030e72cbf1da25226",
     "url": "/uniprot-quiz/static/js/2.9ae1ccb5.chunk.js"
   },
   {
-    "revision": "63b121a6dd19bcb9c8cd",
-    "url": "/uniprot-quiz/static/js/main.cc4341ac.chunk.js"
+    "revision": "60d9334479dc61831d54",
+    "url": "/uniprot-quiz/static/js/main.e68dcfce.chunk.js"
   },
   {
     "revision": "223a8a8d1b291477820a",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/uniprot-quiz/static/media/aquaporin.347897f8.png"
   },
   {
-    "revision": "79e2527e4e7b12c3883b2167a974055d",
-    "url": "/uniprot-quiz/static/media/backgroung.79e2527e.svg"
+    "revision": "2a7bb545f175d21857422c32f9f4c647",
+    "url": "/uniprot-quiz/static/media/background.2a7bb545.png"
   },
   {
     "revision": "0c7b6cdcce8a3c56d0f38b2522db0a28",
