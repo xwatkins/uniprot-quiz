@@ -1,32 +1,31 @@
 import React, { useState } from "react";
 import questions from "./questions.json";
-import {
-  setup,
-  getTicket
-} from "ebi-25th-anniversary-uniprot-ticket-drawer-mapping";
-import Axios from "axios";
+
+import AquaporinImg from "./images/tarot cards/aquaporin.png";
+import BatmanImg from "./images/tarot cards/batman.png";
+import Brick1Img from "./images/tarot cards/brick1.png";
+import FandangoImg from "./images/tarot cards/fandango.png";
+import Glra1Img from "./images/tarot cards/glra1.png";
+import rptorImg from "./images/tarot cards/rptor.png";
+import SlitRoboImg from "./images/tarot cards/slit_robo.png";
+import SorcinImg from "./images/tarot cards/sorcin.png";
+import TimelessImg from "./images/tarot cards/timeless.png";
+import TmmImg from "./images/tarot cards/tmm.png";
+import TwitchinImg from "./images/tarot cards/twitchin.png";
+import VngfImg from "./images/tarot cards/vngf.png";
+
 import "./App.css";
 
 const pins = new Map([
-  ["sausage", [1]],
-  ["megasausage", [1]],
-  ["batman", [2]],
-  ["extravert", [3, 4]],
-  ["introvert", [5, 6]],
-  ["conscientious", [7, 8]],
-  ["openness", [9, 10]],
-  ["agreeableness", [11, 12]]
+  ["sausage", [FandangoImg]],
+  ["megasausage", [FandangoImg]],
+  ["batman", [BatmanImg]],
+  ["extravert", [TmmImg, TwitchinImg]],
+  ["introvert", [AquaporinImg, Glra1Img]],
+  ["conscientious", [Brick1Img, TimelessImg]],
+  ["openness", [rptorImg, SlitRoboImg]],
+  ["agreeableness", [SorcinImg, VngfImg]],
 ]);
-
-export const baseUrl = "http://192.168.4.1:8000";
-
-setup({
-  seed: "EBI 25 Anniversary",
-  minDrawer: 1,
-  maxDrawer: 12,
-  minTicket: 10 ** 5,
-  maxTicket: 10 ** 6
-});
 
 function App() {
   const [index, setIndex] = useState(0);
@@ -37,7 +36,7 @@ function App() {
     setScore(new Map());
   };
 
-  const submitAnswer = answer => {
+  const submitAnswer = (answer) => {
     setIndex(index + 1);
     const scoreMap = new Map(score);
     scoreMap.set(answer, scoreMap.get(answer) ? scoreMap.get(answer) + 1 : 1);
@@ -46,29 +45,15 @@ function App() {
 
   const getQuizAnswer = () => {
     if (score.get("megasausage")) {
-      return getTicket(pins.get("megasausage")[0]);
+      return pins.get("megasausage")[0];
     } else {
       const highScoreEntry = [...score.entries()].reduce((a, e) =>
         e[1] > a[1] ? e : a
       )[0];
-      console.log(
-        highScoreEntry,
-        pins.get(highScoreEntry)[
-          pins.get(highScoreEntry).length > 1 ? Math.round(Math.random()) : 0
-        ]
-      );
-      const ticket = getTicket(
-        pins.get(highScoreEntry)[
-          pins.get(highScoreEntry).length > 1 ? Math.round(Math.random()) : 0
-        ]
-      );
-      try {
-        Axios.get(`${baseUrl}/print/${ticket}`);
-      } catch (e) {
-        console.log(e);
-      }
-      // Make request here to printer with ticket number
-      return ticket;
+      const ticket = pins.get(highScoreEntry)[
+        pins.get(highScoreEntry).length > 1 ? Math.round(Math.random()) : 0
+      ];
+      return <img src={ticket} alt="Your card"></img>;
     }
   };
 
@@ -79,7 +64,7 @@ function App() {
         <div className="Question">
           <h2>{currentQuestion.question}</h2>
           <ul>
-            {currentQuestion.answers.map(answer => (
+            {currentQuestion.answers.map((answer) => (
               <li key={answer.type} onClick={() => submitAnswer(answer.type)}>
                 {answer.answer}
               </li>
@@ -88,8 +73,7 @@ function App() {
         </div>
       ) : (
         <div>
-          <h1>Please take your ticket</h1>
-          <h2>{getQuizAnswer()}</h2>
+          <div>{getQuizAnswer()}</div>
           <button
             onClick={() => {
               reset();
@@ -101,7 +85,7 @@ function App() {
               background: "#ffffff",
               height: "3rem",
               fontFamily: "Monospace",
-              fontSize: "2rem"
+              fontSize: "2rem",
             }}
           >
             Next
