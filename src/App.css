@@ -21,3 +21,31 @@
   right: 0;
   background-color: red;
 }
+
+@-webkit-keyframes enter_card {
+  from {
+    -webkit-transform: scale(0) rotate(360deg);
+  }
+  to {
+    -webkit-transform: scale(1) rotate(-360deg);
+  }
+}
+@keyframes enter_card {
+  from {
+    transform: scale(0) rotate(360deg);
+  }
+  to {
+    transform: scale(1) rotate(-360deg);
+  }
+}
+
+.Answer {
+  -webkit-animation: 1.5s linear 0s forwards enter_card;
+  animation: 1.5s linear 0s forwards enter_card;
+  border: 2px solid #fff;
+  box-shadow: 5px 5px 5px 2px rgba(0, 0, 0, 0.3);
+}
+
+.Answer img {
+  vertical-align: middle;
+}
