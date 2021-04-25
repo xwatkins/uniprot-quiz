@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import questions from "./questions.json";
 
 import AquaporinImg from "./images/tarot cards/aquaporin.png";
@@ -26,6 +26,27 @@ const pins = new Map([
   ["openness", [rptorImg, SlitRoboImg]],
   ["agreeableness", [SorcinImg, VngfImg]],
 ]);
+
+// Hack to preload Answer images
+const loadImages = () => {
+  [
+    AquaporinImg,
+    BatmanImg,
+    Brick1Img,
+    FandangoImg,
+    Glra1Img,
+    rptorImg,
+    SlitRoboImg,
+    SorcinImg,
+    TimelessImg,
+    TmmImg,
+    TwitchinImg,
+    VngfImg,
+  ].forEach((src) => {
+    const image = new Image();
+    image.src = src;
+  });
+};
 
 function App() {
   const [index, setIndex] = useState(0);
@@ -56,6 +77,10 @@ function App() {
       return <img src={ticket} alt="Your card"></img>;
     }
   };
+
+  useEffect(() => {
+    loadImages();
+  }, []);
 
   const currentQuestion = questions[index];
   return (
