@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/uniprot-quiz/precache-manifest.b23539f6ad95b64d19183b4c457ee843.js"
+  "/uniprot-quiz/precache-manifest.f122d72f63058363809bc414d38c72c8.js"
 );
 
 self.addEventListener('message', (event) => {

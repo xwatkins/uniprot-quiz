@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0f3229260e4248fe727e48309d983e14",
+    "revision": "8ae224cc34110e8563baac61b52091ca",
     "url": "/uniprot-quiz/index.html"
   },
   {
-    "revision": "73da7e7eb6e17bc63eb3",
+    "revision": "baa8134c651e75a497dd",
     "url": "/uniprot-quiz/static/css/main.828b92bf.chunk.css"
   },
   {
-    "revision": "8b8030e72cbf1da25226",
-    "url": "/uniprot-quiz/static/js/2.9ae1ccb5.chunk.js"
+    "revision": "0500847c28cec6079105",
+    "url": "/uniprot-quiz/static/js/2.939cde24.chunk.js"
   },
   {
-    "revision": "73da7e7eb6e17bc63eb3",
-    "url": "/uniprot-quiz/static/js/main.10905b4a.chunk.js"
+    "revision": "baa8134c651e75a497dd",
+    "url": "/uniprot-quiz/static/js/main.41c1ab86.chunk.js"
   },
   {
     "revision": "223a8a8d1b291477820a",
